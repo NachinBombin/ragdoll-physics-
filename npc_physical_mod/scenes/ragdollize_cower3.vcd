@@ -1,0 +1,22 @@
+actor "NPC"
+{
+  channel "Cower"
+  {
+    event gesture "Cower"
+    {
+      time 0 1
+      param "Fear_Reaction"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "86"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
